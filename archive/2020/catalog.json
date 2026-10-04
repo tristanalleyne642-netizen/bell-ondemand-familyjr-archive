@@ -1,14 +1,8 @@
 {
   "year": 2020,
-  "service": "Bell On Demand Family Jr",
-  "channel": "Family Jr",
-  "shows": [
-    { "title": "Caillou", "type": "series" },
-    { "title": "Chip and Potato", "type": "series" },
-    { "title": "Daniel Tiger's Neighborhood", "type": "series" },
-    { "title": "Polly Pocket", "type": "series" },
-    { "title": "Alvin and the Chipmunks", "type": "series" },
-    { "title": "Go Jetters", "type": "series" },
-    { "title": "Grizzy and the Lemmings", "type": "series" }
-  ]
+  "title": "Bell On Demand Family Jr Archive - 2020",
+  "platform": "linux-embedded-arris",
+  "install_method": "usb",
+  "channel_name": "Family Jr",
+  "description": "Legacy Bell On Demand Family Jr archive package for the 2020 catalog."
 }

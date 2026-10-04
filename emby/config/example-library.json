@@ -1,0 +1,15 @@
+# Emby Integration for Bell On Demand Family Jr Archive
+
+This folder contains the Emby media-server integration for the Bell Family Jr archive.
+
+## Contents
+
+- `config/`: configuration files for the Emby library setup
+- `plugins/`: optional Emby plugins and compatibility modules
+- `metadata/`: metadata for the archive library and shows
+
+## Setup
+
+These files are intended to be copied into `/opt/emby` on the target Arris device when the USB installer runs.
+
+The Bell Family Jr archive uses Emby as the media-server backend for the historical library.

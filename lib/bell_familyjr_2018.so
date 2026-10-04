@@ -1,0 +1,10 @@
+SHARED_OBJECT_BELL_FAMILYJR_2017
+Platform: Linux Embedded Arris
+Year: 2017
+Compatibility: Arris VIP1113 and compatible boxes
+Runtime: Linux embedded, USB install
+Purpose: Legacy Family Jr On Demand archive for 2017
+Backend: Emby-compatible media server
+
+This placeholder .so file marks the 2017 archive build for the Bell On Demand Family Jr collection.
+It is intended to exist as the shared object bundle used by the embedded Arris box runtime.

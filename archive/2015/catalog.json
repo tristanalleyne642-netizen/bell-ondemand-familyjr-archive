@@ -1,14 +1,8 @@
 {
   "year": 2015,
-  "service": "Bell On Demand Family Jr",
-  "channel": "Family Jr",
-  "shows": [
-    { "title": "Caillou", "type": "series" },
-    { "title": "Bob the Builder", "type": "series" },
-    { "title": "Justin Time", "type": "series" },
-    { "title": "Curious George", "type": "series" },
-    { "title": "Franny's Feet", "type": "series" },
-    { "title": "Handy Manny", "type": "series" },
-    { "title": "Mighty Adventures", "type": "series" }
-  ]
+  "title": "Bell On Demand Family Jr Archive - 2015",
+  "platform": "linux-embedded-arris",
+  "install_method": "usb",
+  "channel_name": "Family Jr",
+  "description": "Legacy Bell On Demand Family Jr archive package for the 2015 catalog."
 }

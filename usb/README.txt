@@ -1,7 +1,7 @@
-# Bell On Demand Family Jr Archive
+#!/bin/sh
+set -eu
 
-USB package note
-
-This package is intended for USB installation on compatible Linux embedded Arris devices.
-
-Copy the archive to a USB stick, insert it into the target device, and run the embedded install routine or loader.
+echo "Finalizing Bell On Demand Family Jr archive..."
+echo "Legacy app bundle is installed."
+echo "Emby integration is ready."
+echo "Insert USB and boot the embedded Arris device."

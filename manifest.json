@@ -1,67 +1,9 @@
-{
-  "project": "Bell On Demand Family Jr Archive",
-  "version": "1.0.0",
-  "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021],
-  "platform": {
-    "target": "linux-embedded-arris",
-    "format": ["shared-object", "native-app-bundle", "usb-install-package"],
-    "compatible_devices": ["arris-linux-embedded-box", "legacy-iptv-set-top-box"]
-  },
-  "archive": {
-    "title": "Bell On Demand Family Jr Archive",
-    "description": "Historical library of Family Jr. on-demand service versions, arranged by year and release snapshot.",
-    "install_method": "usb",
-    "entrypoint": "lib/bell_familyjr_loader.so"
-  },
-  "builds": [
-    {
-      "year": 2015,
-      "name": "bell_familyjr_2015",
-      "library": "lib/bell_familyjr_2015.so",
-      "metadata": "archive/2015/metadata.json",
-      "catalog": "archive/2015/catalog.json"
-    },
-    {
-      "year": 2016,
-      "name": "bell_familyjr_2016",
-      "library": "lib/bell_familyjr_2016.so",
-      "metadata": "archive/2016/metadata.json",
-      "catalog": "archive/2016/catalog.json"
-    },
-    {
-      "year": 2017,
-      "name": "bell_familyjr_2017",
-      "library": "lib/bell_familyjr_2017.so",
-      "metadata": "archive/2017/metadata.json",
-      "catalog": "archive/2017/catalog.json"
-    },
-    {
-      "year": 2018,
-      "name": "bell_familyjr_2018",
-      "library": "lib/bell_familyjr_2018.so",
-      "metadata": "archive/2018/metadata.json",
-      "catalog": "archive/2018/catalog.json"
-    },
-    {
-      "year": 2019,
-      "name": "bell_familyjr_2019",
-      "library": "lib/bell_familyjr_2019.so",
-      "metadata": "archive/2019/metadata.json",
-      "catalog": "archive/2019/catalog.json"
-    },
-    {
-      "year": 2020,
-      "name": "bell_familyjr_2020",
-      "library": "lib/bell_familyjr_2020.so",
-      "metadata": "archive/2020/metadata.json",
-      "catalog": "archive/2020/catalog.json"
-    },
-    {
-      "year": 2021,
-      "name": "bell_familyjr_2021",
-      "library": "lib/bell_familyjr_2021.so",
-      "metadata": "archive/2021/metadata.json",
-      "catalog": "archive/2021/catalog.json"
-    }
-  ]
-}
+CC = gcc
+CFLAGS = -Wall -Wextra -O2 -fPIC
+LDFLAGS = -shared
+
+all:
+	$(CC) $(CFLAGS) -o ../lib/bell_familyjr_loader.so loader.c $(LDFLAGS)
+
+clean:
+	rm -f ../lib/bell_familyjr_loader.so
