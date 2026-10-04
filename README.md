@@ -114,4 +114,6 @@ bell-ondemand-familyjr-archive/
 This project preserves the old Bell Family Jr. on-demand service as a historical software archive. Each yearly build is treated as a distinct versioned package so the user can browse the service as it existed in that year.
 
 The archive is not meant to replace the live service. It is meant to preserve the historical channel experience and provide a museum-style library of legacy versions.
-to set this software up you need to get your account from the shows you want you have to go to github download emby by media browser go to emby official website download linux mint build then put this repo in folder not a zip with the emby repo by media browser your episodes and the emby app and also format usb to fat that supports the bell box plug into your box restart  box and turn it on then click the unused pvr button and the on demand button 
+
+
+to set this software up you need to download the shows you want you have to go to github download emby by media browser go to emby official website download linux mint build then put this repo in folder not a zip with the emby repo by media browser your episodes and the emby app and also format usb to fat that supports the bell box plug into your box restart  box and turn it on then click the unused pvr button and the on demand button 
